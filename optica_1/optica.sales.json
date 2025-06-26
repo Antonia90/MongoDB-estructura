@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "685d0cabf76137655c748a5f"
+  },
+  "client_id": {
+    "$oid": "685c0eec56489f309f064043"
+  },
+  "employee_id": {
+    "$oid": "685c0d7c56489f309f06403e"
+  },
+  "glasses_id": {
+    "$oid": "685c09cb56489f309f064032"
+  },
+  "timestamp": {
+    "$date": "2023-09-23T15:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685d0e66f76137655c748a60"
+  },
+  "client_id": {
+    "$oid": "685d04cfe2ef08b033302964"
+  },
+  "employee_id": {
+    "$oid": "685c0dbb56489f309f064040"
+  },
+  "glasses_id": {
+    "$oid": "685c0a8656489f309f064034"
+  },
+  "timestamp": {
+    "$date": "2024-09-23T15:00:00.000Z"
+  }
+}]

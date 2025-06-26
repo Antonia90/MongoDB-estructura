@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "685c0eec56489f309f064043"
+  },
+  "first_name": "Roberto",
+  "last_name_1": "Alsa",
+  "last_name_2": "Fuentes",
+  "contact": {
+    "postal_address": "08009",
+    "phone": "123456789",
+    "email": "roberto@mail.com"
+  },
+  "registration_date": "2024-03-12T00:00:00Z",
+  "recommended_by": null,
+  "last_shoppings": [
+    {
+      "timestamp": "2023-09-23T15:00:00Z",
+      "employee_id": {
+        "$oid": "685c0f0b56489f309f064044"
+      },
+      "glasses": {
+        "brand": "Rayban",
+        "left_graduation": 2.3,
+        "right_graduation": 2,
+        "frame_type": "Metálica",
+        "frame_color": "Negro",
+        "right_lense_color": "Transparente",
+        "left_lense_color": "Transparente",
+        "price": 127,
+        "supplier_id": {
+          "$oid": "685c0f2a56489f309f064046"
+        },
+        "glasses_id": {
+          "$oid": "685c0f1956489f309f064045"
+        }
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "685d04cfe2ef08b033302964"
+  },
+  "first_name": "Clara",
+  "last_name_1": "Monte",
+  "last_name_2": "Pino",
+  "contact": {
+    "postal_address": "80990",
+    "phone": "987567234",
+    "email": "clara@mail.com"
+  },
+  "registration_date": "2025-02-18T00:00:00Z",
+  "recommended_by": {
+    "$oid": "685d07e7e2ef08b033302968"
+  },
+  "last_shoppings": [
+    {
+      "timestamp": "2024-09-23T15:00:00Z",
+      "employee_id": {
+        "$oid": "685d04f7e2ef08b033302967"
+      },
+      "glasses": {
+        "glasses_id": {
+          "$oid": "685d04f0e2ef08b033302966"
+        },
+        "brand": "Gucci",
+        "left_graduation": 0.5,
+        "right_graduation": 0.25,
+        "frame_type": "Plastico",
+        "frame_color": "Dorado",
+        "right_lense_color": "Transparente",
+        "left_lense_color": "Transparente",
+        "price": 145.9,
+        "supplier_id": {
+          "$oid": "685d04e7e2ef08b033302965"
+        }
+      }
+    }
+  ]
+}]

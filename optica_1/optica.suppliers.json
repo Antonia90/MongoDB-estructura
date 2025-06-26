@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "685bdb4e5850c7686396efd1"
+  },
+  "name": "Alcalan Gafas",
+  "address": {
+    "street": "Calle Rosales",
+    "number": 29,
+    "floor": 3,
+    "door": 1,
+    "city": "Barcelona",
+    "postal_code": "90999",
+    "country": "España"
+  },
+  "phone": "123456789",
+  "fax": "",
+  "nif": "Y8888888"
+},
+{
+  "_id": {
+    "$oid": "685bdbf85850c7686396efd3"
+  },
+  "name": "Optica Luxy",
+  "address": {
+    "street": "Calle Bailén",
+    "number": 78,
+    "floor": 1,
+    "door": 3,
+    "city": "Madrid",
+    "postal_code": "7777",
+    "country": "España"
+  },
+  "phone": "987654321",
+  "fax": "",
+  "nif": "Z9999999"
+}]

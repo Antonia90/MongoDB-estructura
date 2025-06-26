@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "685c0d7c56489f309f06403e"
+  },
+  "name": "Pablo",
+  "last_name": "Correa",
+  "phone": "0999666555",
+  "email": "pablo@mail.com"
+},
+{
+  "_id": {
+    "$oid": "685c0dbb56489f309f064040"
+  },
+  "name": "María",
+  "last_name": "López",
+  "phone": "432432789",
+  "email": "maria@mail.com"
+}]
