@@ -1,0 +1,54 @@
+[
+  {
+    "_id": {
+      "$oid": "685c09cb56489f309f064032"
+    },
+    "brand": "Rayban",
+    "left_graduation": 2.3,
+    "right_graduation": 2,
+    "frame_type": "Metálica",
+    "frame_color": "Negro",
+    "right_lense_color": "Transparente",
+    "left_lense_color": "Transparente",
+    "price": 127,
+    "supplier_id": {
+      "$oid": "685c0cad56489f309f064037"
+    },
+    "purchased_by": [
+      {
+        "client_id": {
+          "$oid": "685c0eec56489f309f064043"
+        },
+        "sales_id": {
+          "$oid": "685d0cabf76137655c748a5f"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "685c0a8656489f309f064034"
+    },
+    "brand": "Gucci",
+    "left_graduation": 0.5,
+    "right_graduation": 0.25,
+    "frame_type": "Plástico",
+    "frame_color": "Dorado",
+    "right_lense_color": "Transparente",
+    "left_lense_color": "Transparente",
+    "price": 127,
+    "supplier_id": {
+      "$oid": "685c0c9256489f309f064036"
+    },
+    "purchased_by": [
+      {
+        "client_id": {
+          "$oid": "685d04cfe2ef08b033302964"
+        },
+        "sales_id": {
+          "$oid": "685d0e66f76137655c748a60"
+        }
+      }
+    ]
+  }
+]
