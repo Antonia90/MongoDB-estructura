@@ -11,13 +11,36 @@
     "right_lense_color": "Transparente",
     "left_lense_color": "Transparente",
     "price": 127,
-    "supplier_id": {
-      "$oid": "685c0cad56489f309f064037"
+    "supplier": {
+      "_id": { "$oid": "685bdb4e5850c7686396efd1" },
+      "name": "Alcalan Gafas",
+      "address": {
+        "street": "Calle Rosales",
+        "number": 29,
+        "floor": 3,
+        "door": 1,
+        "city": "Barcelona",
+        "postal_code": "90999",
+        "country": "España"
+      },
+      "phone": "123456789",
+      "fax": "",
+      "nif": "Y8888888"
     },
     "purchased_by": [
       {
-        "client_id": {
-          "$oid": "685c0eec56489f309f064043"
+        "client": {
+          "_id": { "$oid": "685c0eec56489f309f064043" },
+          "first_name": "Roberto",
+          "last_name_1": "Alsa",
+          "last_name_2": "Fuentes",
+          "contact": {
+            "postal_address": "08009",
+            "phone": "123456789",
+            "email": "roberto@mail.com"
+          },
+          "registration_date": "2024-03-12T00:00:00Z",
+          "recommended_by": null
         },
         "sales_id": {
           "$oid": "685d0cabf76137655c748a5f"
@@ -37,13 +60,42 @@
     "right_lense_color": "Transparente",
     "left_lense_color": "Transparente",
     "price": 127,
-    "supplier_id": {
-      "$oid": "685c0c9256489f309f064036"
+    "supplier": {
+      "_id": {
+        "$oid": "685bdbf85850c7686396efd3"
+      },
+      "name": "Optica Luxy",
+      "address": {
+        "street": "Calle Bailén",
+        "number": 78,
+        "floor": 1,
+        "door": 3,
+        "city": "Madrid",
+        "postal_code": "7777",
+        "country": "España"
+      },
+      "phone": "987654321",
+      "fax": "",
+      "nif": "Z9999999"
     },
     "purchased_by": [
       {
-        "client_id": {
-          "$oid": "685d04cfe2ef08b033302964"
+        "client": {
+          "_id": {
+            "$oid": "685d04cfe2ef08b033302964"
+          },
+          "first_name": "Clara",
+          "last_name_1": "Monte",
+          "last_name_2": "Pino",
+          "contact": {
+            "postal_address": "80990",
+            "phone": "987567234",
+            "email": "clara@mail.com"
+          },
+          "registration_date": "2025-02-18T00:00:00Z",
+          "recommended_by": {
+            "$oid": "685d07e7e2ef08b033302968"
+          }
         },
         "sales_id": {
           "$oid": "685d0e66f76137655c748a60"
